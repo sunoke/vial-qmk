@@ -1,0 +1,102 @@
+{
+  "lighting": "none",
+  "name": "Dactyl-Manuform (3x5+2)",
+  "customKeycodes": [
+    {
+      "name": "OS CTRL",
+      "title": "Callum Style Control Key",
+      "shortName": "OS_CTRL"
+    },
+    {
+      "name": "OS ALT",
+      "title": "Callum Style Alt Key",
+      "shortName": "OS_ALT"
+    },
+    {
+      "name": "OS GUI",
+      "title": "Callum Style GUI Key",
+      "shortName": "OS_GUI"
+    },
+    {
+      "name": "OS SHIFT",
+      "title": "Callum Style SHIFT Key",
+      "shortName": "OS_SHIFT"
+    }
+  ],
+  "matrix": {
+    "rows": 8,
+    "cols": 5
+  },
+  "layouts": {
+    "keymap": 
+[
+  {
+    "name": "sun34",
+    "author": "sunoke"
+  },
+  [
+    "0,0",
+    "0,1",
+    "0,2",
+    "0,3",
+    "0,4",
+    {
+      "x": 1
+    },
+    "4,0",
+    "4,1",
+    "4,2",
+    "4,3",
+    "4,4"
+  ],
+  [
+    "1,0",
+    "1,1",
+    "1,2",
+    {
+      "n": true
+    },
+    "1,3",
+    "1,4",
+    {
+      "x": 1
+    },
+    "5,0",
+    {
+      "n": true
+    },
+    "5,1",
+    "5,2",
+    "5,3",
+    "5,4"
+  ],
+  [
+    "2,0",
+    "2,1",
+    "2,2",
+    "2,3",
+    "2,4",
+    {
+      "x": 1
+    },
+    "6,0",
+    "6,1",
+    "6,2",
+    "6,3",
+    "6,4"
+  ],
+  [
+    {
+      "y": 0.5,
+      "x": 3
+    },
+    "3,3",
+    "3,4",
+    {
+      "x": 1
+    },
+    "7,0",
+    "7,1"
+  ]
+]  }
+}
